@@ -10,7 +10,8 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray        = 1;     /* 0 means no systray */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Source Code Pro:style=Medium:pixelsize=12:antialias=true:autohint=true" };
+static const char *fonts[]          = { "Source Code Pro:style=Medium:pixelsize=12:antialias=true:autohint=true",
+					"Noto Color Emoji:style=Regular" };
 static const char dmenufont[]       = "Source Code Pro:style=Medium:pixelsize=12:antialias=true:autohint=true";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
